@@ -1,8 +1,9 @@
 # NokiaGarage
+
 #### NokiaGarage is an application specially developed by the students of the Metropolia University of Applied Sciences for the Nokia Karaportti Campus. With NokiaGarage you can read articles published by Nokia, book time to work with various equipment and rooms in Nokia Garage at Nokia Karaportti Campus.
 
-
 ## Tech & libraries
+
 - Minimum SDK Level 23
 - JetPack
 - - LiveData - notify domain layer data to views.
@@ -21,12 +22,14 @@
 - Facebook Shimmer
 
 ## Features
+
 ##### - An app to utilize the EspooGarage to its full potential
+
 ##### - Reserve different rooms such as media lab for uninterrupted work
+
 ##### - Reserve different tools and let others know about the availability of the tools
+
 ##### - Check your calendar to check the availability of the rooms and tools
-
-
 
 ## Overview of the app
 
@@ -38,23 +41,16 @@
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/40695548/146219783-15a0b8d9-4aff-44d9-b3ab-5676ea5937f8.gif)
 ![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/40695548/146220210-dac55e6b-b791-46ca-bdc6-af66b08201c9.gif)
 
-
 ## Architectural pattern
 
-#### -  MVVM and Repository pattern
+#### - MVVM and Repository pattern
+
 ![mvvm-pattern](https://user-images.githubusercontent.com/40695548/145488390-c6801231-2034-47a3-b0ea-f3a0c3a33b90.png)
-
-
-## Backend
-
-#### - We developed an API using Node.js, Express.js, MongoDB and Heroku
-> The code for the API
-> https://github.com/Darshilshah178/Nokia-Garage-Api
-
 
 ## Dependencies
 
 ### build.gradle(Project)
+
     ext.kotlin_version = '1.6.0'
     ext.lifecycle_version = "2.4.0"
     ext.material_version = "1.4.0"
@@ -68,7 +64,9 @@
     ext.glide_version = "4.12.0"
     ext.coroutine_version = "1.5.1"
     ext.okhttp3_version = "4.9.0"
+
 ### build.gradle(Module)
+
     plugins {
         id 'com.android.application'
         id 'kotlin-android'
@@ -128,9 +126,11 @@
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
 
 #### - Assets used in the app contain Illustrations from
+
 - #### Saly - 3d illustration
 - #### Blush
 - #### icons8
 
 ## License
-*Free Software, Hell Yeah!*
+
+_Free Software, Hell Yeah!_
